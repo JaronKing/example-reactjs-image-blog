@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
-import { rootPath } from "../routes/Routes";
+import {
+    rootPath,
+    adminPath,
+    loginPath
+} from "../routes/Routes";
 
 function Layout({children}) {
     return (
@@ -8,6 +12,11 @@ function Layout({children}) {
                 <Link to={rootPath} className="m-auto text-center text-7xl font-bold text-neutral-950">
                     Halloween Meme Factory
                 </Link>
+                {/* this is temporary links to test out pages*/}
+                <div className="flex flex-col">
+                    <Link to={loginPath}>Login</Link>
+                    <Link to={adminPath}>Admin</Link>
+                </div>
             </div>
         </header>
     );
