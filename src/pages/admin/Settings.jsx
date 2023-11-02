@@ -1,13 +1,13 @@
 import Layout from "../../components/admin/Layout";
 
-function Admin() {
+function Settings() {
     return (
         <Layout>
             <div>
-                Admin front page
+                Settings
             </div>
         </Layout>
     );
 }
 
-export default Admin;
+export default Settings;

@@ -1,13 +1,13 @@
 import Layout from "../../components/admin/Layout";
 
-function Admin() {
+function Memes() {
     return (
         <Layout>
             <div>
-                Admin front page
+                Memes
             </div>
         </Layout>
     );
 }
 
-export default Admin;
+export default Memes;

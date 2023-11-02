@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import {
-    adminPath,
     rootPath,
+    adminPath,
+    adminMemesPath,
+    adminSettingsPath,
 } from "../../routes/Routes";
 
 function Layout({children}) {
@@ -13,8 +15,8 @@ function Layout({children}) {
                 </div>
                 <div className="pt-4 flex flex-col bg-neutral-500 shadow-lg h-full relative">
                     <Link to={adminPath} className="bg-indigo-200 hover:bg-indigo-500/80 p-2 m-2">Home</Link>
-                    <Link to={adminPath} className="bg-indigo-200 hover:bg-indigo-500/80 p-2 m-2">Memes</Link>
-                    <Link to={adminPath} className="bg-indigo-200 hover:bg-indigo-500/80 p-2 m-2">Settings</Link>
+                    <Link to={adminMemesPath} className="bg-indigo-200 hover:bg-indigo-500/80 p-2 m-2">Memes</Link>
+                    <Link to={adminSettingsPath} className="bg-indigo-200 hover:bg-indigo-500/80 p-2 m-2">Settings</Link>
                     <Link to={rootPath} className="bg-indigo-200 hover:bg-indigo-500/80 bottom-0 absolute w-full h-10">Logout</Link>
                 </div>
             </div>
