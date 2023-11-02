@@ -16,6 +16,7 @@ import Admin from "./pages/admin/Admin";
 import AdminMemes from "./pages/admin/Memes";
 import AdminSettings from "./pages/admin/Settings";
 import Login from "./pages/auth/Login";
+
 function App() {
     return (
         <Routes>
